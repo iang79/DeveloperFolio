@@ -101,9 +101,8 @@ class ContactPageDesk extends StatelessWidget {
                         size: 40,
                       ),
                       onPressed: () {
-                        js.context.callMethod("open", [
-                          "https://drive.google.com/file/d/17_IrrEk9bUUxs263qdy6Yjtl5Y4b2lP9/view?usp=sharing"
-                        ]);
+                        js.context.callMethod(
+                            "open", ["https://iangulo.netlify.app/"]);
                       },
                     )),
               ),
@@ -165,7 +164,7 @@ class ContactPageTab extends StatelessWidget {
                   width: 10,
                 ),
                 Text(
-                  '+91 ***** *****',
+                  '+34 605 761 406',
                   style: TextStyle(
                       color: Colors.grey,
                       fontSize: 28,
@@ -186,7 +185,7 @@ class ContactPageTab extends StatelessWidget {
                   width: 10,
                 ),
                 Text(
-                  'j***********n@gmail.com',
+                  'inakiprof79@gmail.com',
                   style: TextStyle(
                       color: Colors.grey,
                       fontSize: 28,
@@ -206,45 +205,13 @@ class ContactPageTab extends StatelessWidget {
                       height: 60,
                       child: IconButton(
                         icon: Icon(
-                          FontAwesomeIcons.facebook,
-                          color: Colors.blue,
-                          size: 40,
-                        ),
-                        onPressed: () {
-                          js.context.callMethod("open",
-                              ["https://www.facebook.com/naveenjujaray"]);
-                        },
-                      )),
-                ),
-                Expanded(
-                  child: Container(
-                      width: 60,
-                      height: 60,
-                      child: IconButton(
-                        icon: Icon(
-                          FontAwesomeIcons.twitter,
-                          color: Colors.lightBlue,
-                          size: 40,
-                        ),
-                        onPressed: () {
-                          js.context.callMethod(
-                              "open", ["https://twitter.com/naveenjujaray"]);
-                        },
-                      )),
-                ),
-                Expanded(
-                  child: Container(
-                      width: 60,
-                      height: 60,
-                      child: IconButton(
-                        icon: Icon(
                           FontAwesomeIcons.linkedin,
                           color: Color.fromRGBO(40, 103, 178, 1),
                           size: 40,
                         ),
                         onPressed: () {
                           js.context.callMethod("open",
-                              ["https://www.linkedin.com/in/naveenjujaray"]);
+                              ["https://www.linkedin.com/in/iangulo79/"]);
                         },
                       )),
                 ),
@@ -254,13 +221,13 @@ class ContactPageTab extends StatelessWidget {
                       height: 60,
                       child: IconButton(
                         icon: Icon(
-                          FontAwesomeIcons.bloggerB,
+                          FontAwesomeIcons.file,
                           color: Colors.red,
                           size: 40,
                         ),
                         onPressed: () {
                           js.context.callMethod(
-                              "open", ["https://naveenjujaray.js.org"]);
+                              "open", ["https://iangulo.netlify.app/"]);
                         },
                       )),
                 ),
@@ -275,7 +242,7 @@ class ContactPageTab extends StatelessWidget {
                         ),
                         onPressed: () {
                           js.context.callMethod(
-                              "open", ["https://www.github.com/naveenjujaray"]);
+                              "open", ["https://www.github.com/iang79"]);
                         },
                       )),
                 ),
@@ -285,59 +252,12 @@ class ContactPageTab extends StatelessWidget {
                       height: 60,
                       child: IconButton(
                         icon: Icon(
-                          FontAwesomeIcons.gitlab,
-                          color: Colors.orange,
+                          FontAwesomeIcons.bandcamp,
                           size: 40,
                         ),
                         onPressed: () {
                           js.context.callMethod(
-                              "open", ["https://www.gitlab.com/naveenjujaray"]);
-                        },
-                      )),
-                ),
-                Expanded(
-                  child: Container(
-                      width: 60,
-                      height: 60,
-                      child: IconButton(
-                        icon: Icon(
-                          FontAwesomeIcons.medium,
-                          size: 40,
-                        ),
-                        onPressed: () {
-                          js.context.callMethod(
-                              "open", ["https://medium.com/@naveenjujaray"]);
-                        },
-                      )),
-                ),
-                Expanded(
-                  child: Container(
-                      width: 60,
-                      height: 60,
-                      child: IconButton(
-                        icon: Icon(
-                          FontAwesomeIcons.dev,
-                          size: 40,
-                        ),
-                        onPressed: () {
-                          js.context.callMethod(
-                              "open", ["https://dev.to/naveenjujaray"]);
-                        },
-                      )),
-                ),
-                Expanded(
-                  child: Container(
-                      width: 60,
-                      height: 60,
-                      child: IconButton(
-                        icon: Icon(
-                          FontAwesomeIcons.reddit,
-                          color: Colors.deepOrangeAccent,
-                          size: 40,
-                        ),
-                        onPressed: () {
-                          js.context.callMethod("open",
-                              ["https://www.reddit.com/user/jujaraynaveen"]);
+                              "open", ["https://meido.bandcamp.com/"]);
                         },
                       )),
                 ),
@@ -361,7 +281,7 @@ class ContactPageMob extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              "Contact Me",
+              "Contacto",
               style: TextStyle(
                   fontWeight: FontWeight.w800, height: 1.0, fontSize: 32),
             ),
@@ -369,7 +289,7 @@ class ContactPageMob extends StatelessWidget {
               height: 10,
             ),
             Text(
-              'DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.',
+              'PONTE EN CONTACTO PARA CONSULTARME CUALQUIER PROPUESTA QUE TE ENCAJE CON MI EXPERIENCIA',
               style: TextStyle(color: Colors.grey, fontSize: 18),
             ),
             SizedBox(
@@ -386,7 +306,7 @@ class ContactPageMob extends StatelessWidget {
                   width: 10,
                 ),
                 Text(
-                  '+91 ***** *****',
+                  '+34 605 761 406',
                   style: TextStyle(
                       color: Colors.grey,
                       fontSize: 20,
@@ -412,7 +332,7 @@ class ContactPageMob extends StatelessWidget {
                 Expanded(
                   child: Container(
                     child: Text(
-                      'j***********n@gmail.com',
+                      'inakiprof79@gmail.com',
                       style: TextStyle(
                           color: Colors.grey,
                           fontSize: 20,
@@ -433,41 +353,13 @@ class ContactPageMob extends StatelessWidget {
                     height: 55,
                     child: IconButton(
                       icon: Icon(
-                        FontAwesomeIcons.facebook,
-                        color: Colors.blue,
-                        size: 40,
-                      ),
-                      onPressed: () {
-                        js.context.callMethod(
-                            "open", ["https://www.facebook.com/naveenjujaray"]);
-                      },
-                    )),
-                Container(
-                    width: 55,
-                    height: 55,
-                    child: IconButton(
-                      icon: Icon(
-                        FontAwesomeIcons.twitter,
-                        color: Colors.lightBlue,
-                        size: 40,
-                      ),
-                      onPressed: () {
-                        js.context.callMethod(
-                            "open", ["https://twitter.com/naveenjujaray"]);
-                      },
-                    )),
-                Container(
-                    width: 55,
-                    height: 55,
-                    child: IconButton(
-                      icon: Icon(
                         FontAwesomeIcons.linkedin,
                         color: Color.fromRGBO(40, 103, 178, 1),
                         size: 40,
                       ),
                       onPressed: () {
-                        js.context.callMethod("open",
-                            ["https://www.linkedin.com/in/naveenjujaray"]);
+                        js.context.callMethod(
+                            "open", ["https://www.linkedin.com/in/iangulo79/"]);
                       },
                     )),
                 Container(
@@ -475,13 +367,13 @@ class ContactPageMob extends StatelessWidget {
                     height: 55,
                     child: IconButton(
                       icon: Icon(
-                        FontAwesomeIcons.bloggerB,
+                        FontAwesomeIcons.file,
                         color: Colors.red,
                         size: 40,
                       ),
                       onPressed: () {
                         js.context.callMethod(
-                            "open", ["https://naveenjujaray.js.org"]);
+                            "open", ["https://iangulo.netlify.app/"]);
                       },
                     )),
                 Container(
@@ -494,66 +386,20 @@ class ContactPageMob extends StatelessWidget {
                       ),
                       onPressed: () {
                         js.context.callMethod(
-                            "open", ["https://www.github.com/naveenjujaray"]);
+                            "open", ["https://www.github.com/iang79"]);
                       },
                     )),
-              ],
-            ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
                 Container(
                     width: 55,
                     height: 55,
                     child: IconButton(
                       icon: Icon(
-                        FontAwesomeIcons.gitlab,
-                        color: Colors.orange,
+                        FontAwesomeIcons.bandcamp,
                         size: 40,
                       ),
                       onPressed: () {
                         js.context.callMethod(
-                            "open", ["https://www.gitlab.com/naveenjujaray"]);
-                      },
-                    )),
-                Container(
-                    width: 55,
-                    height: 55,
-                    child: IconButton(
-                      icon: Icon(
-                        FontAwesomeIcons.medium,
-                        size: 40,
-                      ),
-                      onPressed: () {
-                        js.context.callMethod(
-                            "open", ["https://medium.com/@naveenjujaray"]);
-                      },
-                    )),
-                Container(
-                    width: 55,
-                    height: 55,
-                    child: IconButton(
-                      icon: Icon(
-                        FontAwesomeIcons.dev,
-                        size: 40,
-                      ),
-                      onPressed: () {
-                        js.context.callMethod(
-                            "open", ["https://dev.to/naveenjujaray"]);
-                      },
-                    )),
-                Container(
-                    width: 55,
-                    height: 55,
-                    child: IconButton(
-                      icon: Icon(
-                        FontAwesomeIcons.reddit,
-                        color: Colors.deepOrangeAccent,
-                        size: 40,
-                      ),
-                      onPressed: () {
-                        js.context.callMethod("open",
-                            ["https://www.reddit.com/user/jujaraynaveen"]);
+                            "open", ["https://meido.bandcamp.com/"]);
                       },
                     )),
               ],

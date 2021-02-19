@@ -120,9 +120,8 @@ class WelcomePageDesk extends StatelessWidget {
               Expanded(
                 child: GestureDetector(
                   onTap: () {
-                    js.context.callMethod("open", [
-                      "https://drive.google.com/file/d/1PZYWMJEQMLIh5g5mXnENQcOL1vlunq6_/view?usp=sharing"
-                    ]);
+                    js.context
+                        .callMethod("open", ["https://iangulo.netlify.app/"]);
                   },
                   child: Container(
                     padding: const EdgeInsets.symmetric(
@@ -271,9 +270,8 @@ class WelcomePageTab extends StatelessWidget {
                 ),
                 GestureDetector(
                   onTap: () {
-                    js.context.callMethod("open", [
-                      "https://drive.google.com/file/d/17_IrrEk9bUUxs263qdy6Yjtl5Y4b2lP9/view?usp=sharing"
-                    ]);
+                    js.context
+                        .callMethod("open", ["https://iangulo.netlify.app/"]);
                   },
                   child: Container(
                     padding: const EdgeInsets.symmetric(
@@ -424,9 +422,8 @@ class WelcomePageMob extends StatelessWidget {
                 children: [
                   GestureDetector(
                     onTap: () {
-                      js.context.callMethod("open", [
-                        "https://drive.google.com/file/d/17_IrrEk9bUUxs263qdy6Yjtl5Y4b2lP9/view?usp=sharing"
-                      ]);
+                      js.context
+                          .callMethod("open", ["https://iangulo.netlify.app/"]);
                     },
                     child: Container(
                       padding: const EdgeInsets.symmetric(
