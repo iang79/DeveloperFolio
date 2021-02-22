@@ -23,7 +23,7 @@ class EduDesk extends StatelessWidget {
               ),
               Container(
                 height: 150,
-                width: 250,
+                width: 400,
                 alignment: Alignment.centerLeft,
                 decoration: BoxDecoration(
                   boxShadow: [
@@ -104,7 +104,7 @@ class EduTab extends StatelessWidget {
                       margin: EdgeInsets.all(10.0),
                       padding: EdgeInsets.all(10.0),
                       height: 150,
-                      width: 250,
+                      width: 350,
                       alignment: Alignment.centerLeft,
                       decoration: BoxDecoration(
                         boxShadow: [
@@ -187,7 +187,7 @@ class EduMob extends StatelessWidget {
                       margin: EdgeInsets.all(10),
                       padding: EdgeInsets.all(5.0),
                       height: 100,
-                      width: 150,
+                      width: 250,
                       alignment: Alignment.center,
                       decoration: BoxDecoration(
                         boxShadow: [
