@@ -101,6 +101,34 @@ class AchieveDesk extends StatelessWidget {
                             ),
                           ),
                         ]),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      children: [
+                        Image.network(
+                          'https://www.flaticon.es/icono-gratis/logotipo-de-spotify_49097',
+                          width: 250,
+                          height: 175,
+                        ),
+                        Text(
+                          'Spotify',
+                          style: TextStyle(
+                              fontSize: 30, fontWeight: FontWeight.w700),
+                          textAlign: TextAlign.center,
+                        ),
+                        InkWell(
+                            onTap: () {
+                              js.context.callMethod("open", [
+                                "https://open.spotify.com/artist/44OD8WjohEQJHpxdLzXz4h?si=iRMhZ9VRSl6e4iVBLmmEkw"
+                              ]);
+                            },
+                            child: Text(
+                              'Ultimo trabajo disponible en Spotify',
+                              style: TextStyle(
+                                  fontSize: 18, color: Colors.green[900]),
+                              textAlign: TextAlign.center,
+                            )),
+                      ],
+                    ),
                   ),
                 ],
               ),
