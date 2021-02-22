@@ -35,7 +35,9 @@ class BlogCardDesk extends StatelessWidget {
                   ),
                   InkWell(
                     onTap: () {
-                      js.context.callMethod("open", ["#"]);
+                      js.context.callMethod("open", [
+                        "https://danish-alee.medium.com/flutter-vs-react-native-2021-9755ca83a1d7"
+                      ]);
                     },
                     child: Container(
                       width: 450.0,
@@ -59,7 +61,7 @@ class BlogCardDesk extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            'Walls — Ad Free Wallpapers a Flutter App',
+                            'Flutter vs React-Native 2021',
                             style: TextStyle(
                                 fontSize: 20, fontWeight: FontWeight.w700),
                           ),
@@ -67,7 +69,7 @@ class BlogCardDesk extends StatelessWidget {
                             height: 10,
                           ),
                           Text(
-                              "I’m a noob to Android Development but Flutter made Android Development simple in a way that i had completed this app with no skills in span of 14 Days, if you’re interested in Flutter then you should check what i made.",
+                              "Flutter is a reactive cross-platform mobile development framework that uses the Dart language. Dart and Flutter have been created by Google who’s using the framework for some of its biggest applications. Its initial alpha release was back in May 2017 so it’s much younger than React Native.",
                               style: GoogleFonts.montserrat(
                                 textStyle: TextStyle(
                                   fontSize: 16,
@@ -83,7 +85,9 @@ class BlogCardDesk extends StatelessWidget {
                   ),
                   InkWell(
                     onTap: () {
-                      js.context.callMethod("open", ["#"]);
+                      js.context.callMethod("open", [
+                        "https://hamedbaatour.medium.com/build-a-real-world-beautiful-web-app-with-angular-6-a-to-z-ultimate-guide-2018-part-i-e121dd1d55e"
+                      ]);
                     },
                     child: Container(
                       width: 450.0,
@@ -107,7 +111,7 @@ class BlogCardDesk extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            'Build A Blog Using Jekyll And Deploy To Github Pages And Set Custom Domain',
+                            'Build A Real World Beautiful Web APP with Angular',
                             style: TextStyle(
                                 fontSize: 20, fontWeight: FontWeight.w700),
                           ),
@@ -115,7 +119,7 @@ class BlogCardDesk extends StatelessWidget {
                             height: 10,
                           ),
                           Text(
-                              "I recently decided to start a blog. I had used Wordpress in the past, so I knew I could get my blog up and running quickly using Wordpress. I was also slightly familiar with Jekyll.",
+                              "Today I am going to show you how to build a real-world beautiful weather app that is production-ready from scratch starting from design to development all the way to deployment using Adobe XD, Angular & Firebase!",
                               style: GoogleFonts.montserrat(
                                 textStyle: TextStyle(
                                   fontSize: 16,
@@ -131,7 +135,8 @@ class BlogCardDesk extends StatelessWidget {
                   ),
                   InkWell(
                     onTap: () {
-                      js.context.callMethod("open", ["#"]);
+                      js.context
+                          .callMethod("open", ["https://flutter.dev/web"]);
                     },
                     child: Container(
                       width: 450.0,
@@ -155,7 +160,7 @@ class BlogCardDesk extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            'What is Flutter Web?',
+                            'Flutter Is About To Win Over the Web',
                             style: TextStyle(
                                 fontSize: 20, fontWeight: FontWeight.w700),
                           ),
@@ -220,7 +225,9 @@ class BlogCardTab extends StatelessWidget {
                   children: [
                     InkWell(
                       onTap: () {
-                        js.context.callMethod("open", ["#"]);
+                        js.context.callMethod("open", [
+                          "https://danish-alee.medium.com/flutter-vs-react-native-2021-9755ca83a1d7"
+                        ]);
                       },
                       child: Container(
                         width: 580.0,
@@ -240,7 +247,7 @@ class BlogCardTab extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              'Walls — Ad Free Wallpapers a Flutter App',
+                              'Flutter vs React-Native 2021',
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.w700),
                             ),
@@ -248,7 +255,7 @@ class BlogCardTab extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                                "I’m a noob to Android Development but Flutter made Android Development simple in a way that i had completed this app with no skills in span of 14 Days, if you’re interested in Flutter then you should check what i made.",
+                                "Flutter is a reactive cross-platform mobile development framework that uses the Dart language. Dart and Flutter have been created by Google who’s using the framework for some of its biggest applications. Its initial alpha release was back in May 2017 so it’s much younger than React Native.",
                                 style: GoogleFonts.montserrat(
                                   textStyle: TextStyle(
                                     fontSize: 16,
@@ -264,7 +271,9 @@ class BlogCardTab extends StatelessWidget {
                     ),
                     InkWell(
                       onTap: () {
-                        js.context.callMethod("open", ["#"]);
+                        js.context.callMethod("open", [
+                          "https://hamedbaatour.medium.com/build-a-real-world-beautiful-web-app-with-angular-6-a-to-z-ultimate-guide-2018-part-i-e121dd1d55e"
+                        ]);
                       },
                       child: Container(
                         width: 580,
@@ -284,7 +293,7 @@ class BlogCardTab extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              'Build A Blog Using Jekyll And Deploy To Github Pages And Set Custom Domain',
+                              'Build A Real World Beautiful Web APP with Angular',
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.w700),
                             ),
@@ -292,7 +301,7 @@ class BlogCardTab extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                                "I recently decided to start a blog. I had used Wordpress in the past, so I knew I could get my blog up and running quickly using Wordpress. I was also slightly familiar with Jekyll.",
+                                "Today I am going to show you how to build a real-world beautiful weather app that is production-ready from scratch starting from design to development all the way to deployment using Adobe XD, Angular & Firebase!",
                                 style: GoogleFonts.montserrat(
                                   textStyle: TextStyle(
                                     fontSize: 16,
@@ -308,7 +317,8 @@ class BlogCardTab extends StatelessWidget {
                     ),
                     InkWell(
                       onTap: () {
-                        js.context.callMethod("open", ["#"]);
+                        js.context
+                            .callMethod("open", ["https://flutter.dev/web"]);
                       },
                       child: Container(
                         width: 580.0,
@@ -391,7 +401,9 @@ class BlogCardMob extends StatelessWidget {
                   children: [
                     InkWell(
                       onTap: () {
-                        js.context.callMethod("open", ["#"]);
+                        js.context.callMethod("open", [
+                          "https://danish-alee.medium.com/flutter-vs-react-native-2021-9755ca83a1d7"
+                        ]);
                       },
                       child: Container(
                         width: 400.0,
@@ -412,7 +424,7 @@ class BlogCardMob extends StatelessWidget {
                           children: [
                             Expanded(
                                 child: Text(
-                              'Walls — Ad Free Wallpapers a Flutter App',
+                              'Flutter vs React-Native 2021',
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.w700),
                             )),
@@ -421,7 +433,7 @@ class BlogCardMob extends StatelessWidget {
                             ),
                             Expanded(
                               child: Text(
-                                  "I’m a noob to Android Development but Flutter made Android Development simple in a way that i had completed this app with no skills in span of 14 Days, if you’re interested in Flutter then you should check what i made.",
+                                  "Flutter is a reactive cross-platform mobile development framework that uses the Dart language. Dart and Flutter have been created by Google who’s using the framework for some of its biggest applications. Its initial alpha release was back in May 2017 so it’s much younger than React Native.",
                                   style: GoogleFonts.montserrat(
                                     textStyle: TextStyle(
                                       fontSize: 16,
@@ -438,7 +450,9 @@ class BlogCardMob extends StatelessWidget {
                     ),
                     InkWell(
                       onTap: () {
-                        js.context.callMethod("open", ["#"]);
+                        js.context.callMethod("open", [
+                          "https://hamedbaatour.medium.com/build-a-real-world-beautiful-web-app-with-angular-6-a-to-z-ultimate-guide-2018-part-i-e121dd1d55e"
+                        ]);
                       },
                       child: Container(
                         width: 400,
@@ -459,7 +473,7 @@ class BlogCardMob extends StatelessWidget {
                           children: [
                             Expanded(
                                 child: Text(
-                              'Build A Blog Using Jekyll And Deploy To Github Pages And Set Custom Domain',
+                              'Build A Real World Beautiful Web APP with Angular',
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.w700),
                             )),
@@ -468,7 +482,7 @@ class BlogCardMob extends StatelessWidget {
                             ),
                             Expanded(
                               child: Text(
-                                  "I recently decided to start a blog. I had used Wordpress in the past, so I knew I could get my blog up and running quickly using Wordpress. I was also slightly familiar with Jekyll.",
+                                  "Today I am going to show you how to build a real-world beautiful weather app that is production-ready from scratch starting from design to development all the way to deployment using Adobe XD, Angular & Firebase!",
                                   style: GoogleFonts.montserrat(
                                     textStyle: TextStyle(
                                       fontSize: 16,
@@ -485,7 +499,8 @@ class BlogCardMob extends StatelessWidget {
                     ),
                     InkWell(
                       onTap: () {
-                        js.context.callMethod("open", ["#"]);
+                        js.context
+                            .callMethod("open", ["https://flutter.dev/web"]);
                       },
                       child: Container(
                         width: 400.0,

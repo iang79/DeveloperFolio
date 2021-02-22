@@ -146,7 +146,7 @@ class SkillsLogoDesk extends StatelessWidget {
             height: 20,
           ),
           Text(
-            "⚡ Desarrollo interactivo Front end / Interfeces de usuario para web y dispositivos móviles",
+            "⚡ Desarrollo interactivo Front end / Interfaces de usuario para web y dispositivos móviles",
             style: TextStyle(fontSize: 18),
           ),
           Text(
@@ -309,7 +309,7 @@ class SkillsLogoTab extends StatelessWidget {
               height: 20,
             ),
             Text(
-              "⚡ Desarrollo interactivo Front end / Interfeces de usuario para web y dispositivos móviles",
+              "⚡ Desarrollo interactivo Front end / Interfaces de usuario para web y dispositivos móviles",
               style: TextStyle(fontSize: 20),
             ),
             Text(
@@ -478,7 +478,7 @@ class SkillsLogoMob extends StatelessWidget {
               height: 20,
             ),
             Text(
-              "⚡ Desarrollo interactivo Front end / Interfeces de usuario para web y dispositivos móviles",
+              "⚡ Desarrollo interactivo Front end / Interfaces de usuario para web y dispositivos móviles",
               style: TextStyle(fontSize: 16),
             ),
             SizedBox(
