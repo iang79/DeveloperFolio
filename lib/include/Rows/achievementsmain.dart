@@ -130,6 +130,9 @@ class AchieveDesk extends StatelessWidget {
                       ],
                     ),
                   ),
+                  SizedBox(
+                    width: 25,
+                  ),
                 ],
               ),
             ),
@@ -267,6 +270,9 @@ class AchieveTab extends StatelessWidget {
                                 )),
                           ],
                         ),
+                      ),
+                      SizedBox(
+                        width: 25,
                       ),
                     ],
                   ),
@@ -407,6 +413,9 @@ class AchieveMob extends StatelessWidget {
                                 )),
                           ],
                         ),
+                      ),
+                      SizedBox(
+                        width: 25,
                       ),
                     ],
                   ),
