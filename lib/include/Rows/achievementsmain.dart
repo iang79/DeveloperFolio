@@ -105,7 +105,7 @@ class AchieveDesk extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Image.network(
-                          'https://www.flaticon.es/icono-gratis/logotipo-de-spotify_49097',
+                          'https://logodownload.org/wp-content/uploads/2020/03/listen-on-spotify-3.png',
                           width: 250,
                           height: 175,
                         ),
@@ -243,23 +243,24 @@ class AchieveTab extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             Image.network(
-                              'https://image.flaticon.com/icons/png/512/21/21498.png',
+                              'https://logodownload.org/wp-content/uploads/2020/03/listen-on-spotify-3.png',
                               width: 200,
                               height: 125,
                             ),
                             Text(
-                              'Bandcamp',
+                              'Spotify',
                               style: TextStyle(
                                   fontSize: 30, fontWeight: FontWeight.w700),
                               textAlign: TextAlign.center,
                             ),
                             InkWell(
                                 onTap: () {
-                                  js.context.callMethod(
-                                      "open", ["https://meido.bandcamp.com/"]);
+                                  js.context.callMethod("open", [
+                                    "https://open.spotify.com/artist/44OD8WjohEQJHpxdLzXz4h?si=iRMhZ9VRSl6e4iVBLmmEkw"
+                                  ]);
                                 },
                                 child: Text(
-                                  'Disponible en bandcamp',
+                                  'Ultimo trabajo disponible en Spotify',
                                   style: TextStyle(
                                       fontSize: 18, color: Colors.green[900]),
                                   textAlign: TextAlign.center,
@@ -349,7 +350,7 @@ class AchieveMob extends StatelessWidget {
                                       "open", ["https://meido.bandcamp.com/"]);
                                 },
                                 child: Text(
-                                  'Disponible en bandcamp',
+                                  'Trabajos disponibles en Bandcamp',
                                   style: TextStyle(
                                       fontSize: 18, color: Colors.green[900]),
                                   textAlign: TextAlign.center,
@@ -382,23 +383,24 @@ class AchieveMob extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             Image.network(
-                              'https://image.flaticon.com/icons/png/512/21/21498.png',
+                              'https://logodownload.org/wp-content/uploads/2020/03/listen-on-spotify-3.png',
                               width: 200,
                               height: 125,
                             ),
                             Text(
-                              'Bandcamp',
+                              'Spotify',
                               style: TextStyle(
                                   fontSize: 30, fontWeight: FontWeight.w700),
                               textAlign: TextAlign.center,
                             ),
                             InkWell(
                                 onTap: () {
-                                  js.context.callMethod(
-                                      "open", ["https://meido.bandcamp.com/"]);
+                                  js.context.callMethod("open", [
+                                    "https://open.spotify.com/artist/44OD8WjohEQJHpxdLzXz4h?si=iRMhZ9VRSl6e4iVBLmmEkw"
+                                  ]);
                                 },
                                 child: Text(
-                                  'Disponible en bandcamp',
+                                  'Ultimo trabajo disponible en Spotify',
                                   style: TextStyle(
                                       fontSize: 18, color: Colors.green[900]),
                                   textAlign: TextAlign.center,
