@@ -105,7 +105,7 @@ class AchieveDesk extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Image.network(
-                          'https://logodownload.org/wp-content/uploads/2020/03/listen-on-spotify-3.png',
+                          'https://investrya.squarespace.com/s/Listen-on-spotify-button.png',
                           width: 250,
                           height: 175,
                         ),
@@ -243,7 +243,7 @@ class AchieveTab extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             Image.network(
-                              'https://logodownload.org/wp-content/uploads/2020/03/listen-on-spotify-3.png',
+                              'https://investrya.squarespace.com/s/Listen-on-spotify-button.png',
                               width: 200,
                               height: 125,
                             ),
@@ -383,7 +383,7 @@ class AchieveMob extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             Image.network(
-                              'https://logodownload.org/wp-content/uploads/2020/03/listen-on-spotify-3.png',
+                              'https://investrya.squarespace.com/s/Listen-on-spotify-button.png',
                               width: 200,
                               height: 125,
                             ),
