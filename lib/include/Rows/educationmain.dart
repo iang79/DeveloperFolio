@@ -37,7 +37,7 @@ class EduDesk extends StatelessWidget {
                       ),
                     ),
                   ],
-                  shape: BoxShape.circle,
+                  shape: BoxShape.rectangle,
                   image: DecorationImage(
                     fit: BoxFit.fill,
                     image: AssetImage('assets/images/gitam.png'),
@@ -118,7 +118,7 @@ class EduTab extends StatelessWidget {
                             ),
                           ),
                         ],
-                        shape: BoxShape.circle,
+                        shape: BoxShape.rectangle,
                         image: DecorationImage(
                           fit: BoxFit.fill,
                           image: AssetImage('assets/images/gitam.png'),
@@ -201,7 +201,7 @@ class EduMob extends StatelessWidget {
                             ),
                           ),
                         ],
-                        shape: BoxShape.circle,
+                        shape: BoxShape.rectangle,
                         image: DecorationImage(
                           fit: BoxFit.fill,
                           image: AssetImage('assets/images/gitam.png'),
